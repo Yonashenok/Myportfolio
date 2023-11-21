@@ -1,7 +1,13 @@
-export default function App() {
+import { Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout';
+import Home from './components/home/Home';
+
+export default function App(): JSX.Element {
   return (
-    <h1 className="text-3xl font-bold underline text-green-900">
-      Hello world!
-    </h1>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route path="/" element={<Home />} />
+      </Route>
+    </Routes>
   );
 }
