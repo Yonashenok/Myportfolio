@@ -1,7 +1,7 @@
 const TypeScriptIcon = () => {
   return (
     <>
-      <svg viewBox="0 0 128 128" width="36" height="36">
+      <svg viewBox="0 0 128 128" width="56" height="56">
         <path fill="#fff" d="M22.67 47h99.67v73.67H22.67z"></path>
         <path
           data-name="original"

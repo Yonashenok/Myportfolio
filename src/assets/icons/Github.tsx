@@ -4,8 +4,8 @@ const Github = (): JSX.Element => {
       <svg
         viewBox="0 0 128 128"
         strokeWidth={1.5}
-        width="24"
-        height="24"
+        width="56"
+        height="56"
         stroke="#fff"
         className="w-6 h-6"
       >

@@ -1,7 +1,7 @@
 const RubyIcon = () => {
   return (
     <>
-      <svg viewBox="0 0 128 128" width="36" height="36">
+      <svg viewBox="0 0 128 128" width="56" height="56">
         <linearGradient
           id="ruby-original-a"
           gradientUnits="userSpaceOnUse"
