@@ -3,6 +3,7 @@ import Linkedin from '../../assets/icons/Linkden';
 import Medium from '../../assets/icons/Medium';
 import Twitter from '../../assets/icons/twitter';
 import photo from '../../assets/imgs/new.jpg';
+import GridSkills from './Grid/GridSkills';
 
 const Home = (): JSX.Element => {
   return (
@@ -39,10 +40,14 @@ const Home = (): JSX.Element => {
           <Linkedin />
         </div>
         <div className="px-16">
-          <h3 className="text-4xl text-white"> My Skills</h3>
-
-          <div className="grid grid-rows-4 grid-flow-col gap-4">
-            <div className="p-7 bg-white"></div>
+          <h3 className="text-4xl text-white py-1"> My Skills</h3>
+          <p className="text-md lg:text-lg lg:w-[800px] font-light  leading-relaxed mt-6 mb-6  text-teal-100">
+            Here you can see my skills, one of the fascinations of the computer
+            world is the momentary changes of technologies, but I try to update
+            my knowledge every day and experience new technologies.
+          </p>
+          <div className="p-7">
+            <GridSkills />
           </div>
         </div>
       </div>
