@@ -1,7 +1,7 @@
 const SaasIcon = () => {
   return (
     <>
-      <svg viewBox="0 0 128 128" width="36" height="36">
+      <svg viewBox="0 0 128 128" className="icon-w-h">
         <path
           fill-rule="evenodd"
           clip-rule="evenodd"

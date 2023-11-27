@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import XMarkIcon from '../../../assets/icons/XMarkIcon';
 
-export interface NavBarState {
+interface NavBarState {
   navbarOpen?: boolean;
   setNavbarOpen: (navbarOpen: boolean) => void;
 }

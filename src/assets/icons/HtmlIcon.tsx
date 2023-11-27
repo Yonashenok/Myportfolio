@@ -1,7 +1,7 @@
 const HtmlIcon = () => {
   return (
     <>
-      <svg viewBox="0 0 128 128" width="36" height="36">
+      <svg viewBox="0 0 128 128" className="icon-w-h">
         <path
           fill="#E44D26"
           d="M19.037 113.876L9.032 1.661h109.936l-10.016 112.198-45.019 12.48z"

@@ -167,8 +167,8 @@ body {
   background: none;
   border: 0.5px solid #2dc7b4;
   box-sizing: border-box;
-  margin: 1em;
-  padding: 2em 4em;
+  /* margin: 1em; */
+  padding: 2em 3em;
   border-radius: 1em;
 
   color: #2dc7b4;
@@ -193,8 +193,8 @@ body {
 }
 
 .spin {
-  width: 8rem;
-  height: 8rem;
+  width: 6rem;
+  height: 6rem;
   padding: 0;
 }
 
