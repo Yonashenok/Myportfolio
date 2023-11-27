@@ -15,8 +15,8 @@ import TypeScriptIcon from '../../../assets/icons/TypeScriptIcon';
 const GridSkills = () => {
   return (
     <>
-      <div className="grid grid-cols-2  md:grid-cols-5 w-[700px]">
-        <div className="grid gap-2">
+      <div className="grid grid-cols-4 gap-1  w-[265px] sm:w-[500px] sm:grid-cols-5  md:grid-cols-7 xl:grid-cols-12 xl:w-[1480px]  lg:w-[850px]">
+        <div className="grid gap-4">
           <section className="buttons">
             <div className="spin btn thick">
               <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-26 h-26 ">
@@ -29,14 +29,6 @@ const GridSkills = () => {
             <div className="spin btn thick">
               <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-36 h-36 ">
                 <TypeScriptIcon />
-                <div className="flex justify-end items-center"></div>
-              </div>
-            </div>
-          </section>
-          <section className="buttons">
-            <div className="spin btn thick">
-              <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-36 h-36 ">
-                <ReactIcon />
                 <div className="flex justify-end items-center"></div>
               </div>
             </div>
@@ -59,10 +51,21 @@ const GridSkills = () => {
               </div>
             </div>
           </section>
+        </div>
+
+        <div className="grid gap-4">
           <section className="buttons">
             <div className="spin btn thick">
               <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-36 h-36 ">
-                <PostgresIcon />
+                <CssIcon />
+                <div className="flex justify-end items-center"></div>
+              </div>
+            </div>
+          </section>
+          <section className="buttons">
+            <div className="spin btn thick">
+              <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-36 h-36 ">
+                <TailwindIcon />
                 <div className="flex justify-end items-center"></div>
               </div>
             </div>
@@ -72,11 +75,21 @@ const GridSkills = () => {
           <section className="buttons">
             <div className="spin btn thick">
               <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-36 h-36 ">
-                <HtmlIcon />
+                <SaasIcon />
                 <div className="flex justify-end items-center"></div>
               </div>
             </div>
           </section>
+          <section className="buttons">
+            <div className="spin btn thick">
+              <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-36 h-36 ">
+                <BootstrapIcon />
+                <div className="flex justify-end items-center"></div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div className="grid gap-4">
           <section className="buttons">
             <div className="spin btn thick">
               <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-36 h-36 ">
@@ -98,7 +111,7 @@ const GridSkills = () => {
           <section className="buttons">
             <div className="spin btn thick">
               <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-36 h-36 ">
-                <CssIcon />
+                <PostgresIcon />
                 <div className="flex justify-end items-center"></div>
               </div>
             </div>
@@ -106,15 +119,7 @@ const GridSkills = () => {
           <section className="buttons">
             <div className="spin btn thick">
               <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-36 h-36 ">
-                <TailwindIcon />
-                <div className="flex justify-end items-center"></div>
-              </div>
-            </div>
-          </section>
-          <section className="buttons">
-            <div className="spin btn thick">
-              <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-36 h-36 ">
-                <BootstrapIcon />
+                <ReactIcon />
                 <div className="flex justify-end items-center"></div>
               </div>
             </div>
@@ -124,7 +129,7 @@ const GridSkills = () => {
           <section className="buttons">
             <div className="spin btn thick">
               <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-36 h-36 ">
-                <SaasIcon />
+                <HtmlIcon />
                 <div className="flex justify-end items-center"></div>
               </div>
             </div>
