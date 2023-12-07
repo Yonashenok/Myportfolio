@@ -1,13 +1,17 @@
-const Github = (): JSX.Element => {
+type ColorProps = {
+  color: string;
+};
+
+const Github = ({ color }: ColorProps): JSX.Element => {
   return (
     <>
       <svg
         viewBox="0 0 128 128"
         strokeWidth={1.5}
-        stroke="#fff"
+        stroke="#18181b"
         className="w-6 h-6"
       >
-        <g fill="#fff">
+        <g fill={`#${color}`}>
           <path
             fill-rule="evenodd"
             clip-rule="evenodd"
