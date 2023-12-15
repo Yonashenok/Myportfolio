@@ -168,7 +168,7 @@ body {
   border: 0.5px solid #2dc7b4;
   box-sizing: border-box;
   /* margin: 1em; */
-  padding: 2em 3em;
+  padding: 1em 2em;
   border-radius: 1em;
 
   color: #2dc7b4;
@@ -193,8 +193,8 @@ body {
 }
 
 .spin {
-  width: 6rem;
-  height: 6rem;
+  width: 4rem;
+  height: 4rem;
   padding: 0;
 }
 
@@ -277,3 +277,35 @@ body {
 .buttons {
   isolation: isolate;
 }
+
+.icon-w-h {
+  width: 36px;
+  height: 36px;
+}
+
+@media (min-width: 1024px) {
+  .icon-w-h {
+    width: 46px;
+    height: 46px;
+  }
+
+  .spin {
+    width: 5rem;
+    height: 5rem;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1375px) {
+  .icon-w-h {
+    width: 56px;
+    height: 56px;
+  }
+
+  .spin {
+    width: 6rem;
+    height: 6rem;
+    padding: 0;
+  }
+}
+/* ------------------Projects animations------------------- */
