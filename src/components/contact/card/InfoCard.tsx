@@ -1,16 +1,11 @@
-import {
-  Card,
-  CardBody,
-  CardFooter,
-  Typography,
-} from '@material-tailwind/react';
+import { Card, CardBody, Typography } from '@material-tailwind/react';
 import EmailIcon from '../../../assets/icons/EmailIcon';
 import Location from '../../../assets/icons/Location';
 import Phone from '../../../assets/icons/Phone';
 
 export function InfoCard() {
   return (
-    <Card className="mt-6 w-96 p-4">
+    <Card className="mt-6 md:w-96 p-2  lg:p-4">
       <CardBody>
         <Typography variant="h5" color="blue-gray" className="mb-2">
           What is your plan ? Call me

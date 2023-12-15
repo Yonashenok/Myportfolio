@@ -29,7 +29,7 @@ const Header = (): JSX.Element => {
               <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
                 <li className="nav-item">
                   <NavLink
-                    className="px-3 py-2 flex items-center text-sm border-b border-[#2dc7b4] rounded-3xl   font-bold leading-snug text-white hover:opacity-75"
+                    className="px-3 py-2 flex items-center text-sm rounded-3xl   font-bold leading-snug text-white hover:opacity-75"
                     to="/"
                   >
                     <i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i>
