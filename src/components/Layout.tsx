@@ -4,7 +4,7 @@ import { Footer } from './footer/Footer';
 
 const Layout = (): JSX.Element => {
   return (
-    <main className="bg-[#18181b] w-[100svw] md:w-[60svw]  md:h-[170svh] flex flex-col justify-between gap-0">
+    <main className="bg-[#18181b]  w-[100svw] md:w-[60svw]  flex flex-col justify-between gap-0">
       <div>
         <Header />
         <Outlet />
