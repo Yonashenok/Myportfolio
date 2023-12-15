@@ -65,26 +65,36 @@ const About = () => {
             </div>
           </div>
           <div className="flex w-100 flex-col justify-start items-start px-10 lg:px-16 gap-3 mb-6">
-            <span className="flex justify-between items-center text-white gap-3">
-              <Twitter />
-              Follow on Twitter
-            </span>
-            <span className="flex justify-between items-center text-white gap-3">
-              <Github />
-              Follow on Github
-            </span>
-            <span className="flex justify-between items-center text-white gap-3">
-              <Medium />
-              Follow on Medium
-            </span>
-            <span className="flex justify-between items-center text-white gap-3">
-              <Linkedin />
-              Follow on Linkedin
-            </span>
-            <span className="flex justify-between items-center text-white gap-4 ">
-              <EmailIcon />
-              yonashenok24@gmail.com
-            </span>
+            <a target="blank" href="https://twitter.com/YonasHenok3">
+              <span className="flex justify-between items-center text-white gap-3">
+                <Twitter />
+                Follow on Twitter
+              </span>
+            </a>
+            <a target="blank" href="https://github.com/Yonashenok">
+              <span className="flex justify-between items-center text-white gap-3">
+                <Github color="888" />
+                Follow on Github
+              </span>
+            </a>
+            <a target="blank" href="http://www.medium.com/@yonashenok24">
+              <span className="flex justify-between items-center text-white gap-3">
+                <Medium />
+                Follow on Medium
+              </span>
+            </a>
+            <a target="blank" href="https://www.linkedin.com/in/yonas-henok">
+              <span className="flex justify-between items-center text-white gap-3">
+                <Linkedin />
+                Follow on Linkedin
+              </span>
+            </a>
+            <a target="blank" href="mailto:yonashenok24@gmail.com">
+              <span className="flex justify-between items-center text-white gap-4 ">
+                <EmailIcon />
+                yonashenok24@gmail.com
+              </span>
+            </a>
           </div>
         </div>
       </div>
