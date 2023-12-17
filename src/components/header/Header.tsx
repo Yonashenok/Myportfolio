@@ -65,7 +65,7 @@ const Header = (): JSX.Element => {
                 </li>
               </ul>
             </div>
-            <div className="rounded-3xl p-3 bg-white"></div>
+            {/* <div className="rounded-3xl p-3 bg-white"></div> */}
           </div>
         </nav>
       </header>
