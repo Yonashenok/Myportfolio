@@ -1,3 +1,311 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active {
+  color: #2dc7b4;
+  border-bottom: 1px solid #2dc7b4;
+  border-radius: 25rem;
+}
+
+.card-photo {
+  position: relative;
+  color: #fff;
+  background: transparent;
+  overflow: hidden;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+}
+
+.anime-span {
+  position: absolute;
+  border-radius: 100vmax;
+}
+
+.top-ani {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 50%,
+    rgba(0, 255, 255, 0.5),
+    rgb(0, 255, 255)
+  );
+}
+
+.bottom-ani {
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 255, 255, 0.5),
+    rgb(0, 255, 255),
+    transparent 50%
+  );
+}
+
+.right-ani {
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 0;
+  background: linear-gradient(
+    180deg,
+    transparent 30%,
+    rgba(0, 255, 255, 0.5),
+    rgb(0, 255, 255)
+  );
+}
+
+.left-ani {
+  left: 0;
+  bottom: 0;
+  width: 1px;
+  height: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 255, 255, 0.5),
+    rgb(0, 255, 255),
+    transparent 70%
+  );
+}
+
+.top-ani {
+  animation: animateTop 2s ease-in-out infinite;
+}
+
+.bottom-ani {
+  animation: animateBottom 2s ease-in-out infinite;
+}
+
+.right-ani {
+  animation: animateRight 2s ease-in-out infinite;
+}
+
+.left-ani {
+  animation: animateLeft 2s ease-in-out infinite;
+}
+
+@keyframes animateTop {
+  25% {
+    width: 100%;
+    opacity: 1;
+  }
+
+  30%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes animateBottom {
+  0%,
+  50% {
+    opacity: 0;
+    width: 0;
+  }
+
+  75% {
+    opacity: 1;
+    width: 100%;
+  }
+
+  76%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes animateRight {
+  0%,
+  25% {
+    opacity: 0;
+    height: 0;
+  }
+
+  50% {
+    opacity: 1;
+    height: 100%;
+  }
+
+  55%,
+  100% {
+    height: 100%;
+    opacity: 0;
+  }
+}
+
+@keyframes animateLeft {
+  0%,
+  75% {
+    opacity: 0;
+    bottom: 0;
+    height: 0;
+  }
+
+  100% {
+    opacity: 1;
+    height: 100%;
+  }
+}
+
+.btn {
+  background: none;
+  border: 0.5px solid #2dc7b4;
+  box-sizing: border-box;
+  /* margin: 1em; */
+  padding: 1em 2em;
+  border-radius: 1em;
+
+  color: #2dc7b4;
+  font-size: inherit;
+  font-weight: 700;
+
+  position: relative;
+  vertical-align: middle;
+}
+
+.btn::before,
+.btn::after {
+  box-sizing: inherit;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.btn:hover {
+  border: 0;
+}
+
+.spin {
+  width: 4rem;
+  height: 4rem;
+  padding: 0;
+}
+
+.spin:hover {
+  color: #0eb7da;
+}
+
+.spin::before,
+.spin::after {
+  top: 0;
+  left: 0;
+}
+
+.spin::before {
+  border: 1px solid transparent;
+}
+
+.spin:hover::before {
+  border-top-color: #0eb7da;
+  border-right-color: #0eb7da;
+  border-bottom-color: #0eb7da;
+
+  transition:
+    border-top-color 0.15s linear,
+    border-right-color 0.15s linear 0.1s,
+    border-bottom-color 0.15s linear 0.2s;
+}
+
+.spin::after {
+  border: 0 solid transparent;
+}
+
+.spin:hover::after {
+  border-top: 2px solid #0eb7da;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  transform: rotate(270deg);
+  transition:
+    transform 0.4s linear 0s,
+    border-left-width 0s linear 0.35s;
+}
+
+.thick {
+  color: #2dc7b4;
+}
+
+.thick:hover {
+  color: #fff;
+  font-weight: 700;
+}
+
+.thick::before {
+  border: 2.5em solid transparent;
+  z-index: -1;
+}
+
+.thick::after {
+  mix-blend-mode: color-dodge;
+  z-index: -1;
+}
+
+.thick:hover::before {
+  background: #199789;
+  border-top-color: #138073;
+  border-right-color: #0e645a;
+  border-bottom-color: #1a8a7d;
+  transition:
+    background 0s linear 0.4s,
+    border-top-color 0.15s linear,
+    border-right-color 0.15s linear 0.15s,
+    border-bottom-color 0.15s linear 0.25s;
+}
+
+.thick:hover::after {
+  border-top: 2.5em solid #2dc7b4;
+  border-left-width: 2.5em;
+  border-right-width: 2.5em;
+}
+
+.buttons {
+  isolation: isolate;
+}
+
+.icon-w-h {
+  width: 36px;
+  height: 36px;
+}
+
+@media (min-width: 1024px) {
+  .icon-w-h {
+    width: 46px;
+    height: 46px;
+  }
+
+  .spin {
+    width: 5rem;
+    height: 5rem;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1375px) {
+  .icon-w-h {
+    width: 56px;
+    height: 56px;
+  }
+
+  .spin {
+    width: 6rem;
+    height: 6rem;
+    padding: 0;
+  }
+}
+/* ------------------Projects animations------------------- */
