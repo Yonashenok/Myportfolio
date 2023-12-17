@@ -11,8 +11,8 @@ import See from '../../../assets/icons/See';
 
 const ReverseCard = ({ info }: data) => {
   return (
-    <Card className="max-w-[48rem] h-[17rem] flex-row overflow-hidden">
-      <CardBody className="p-4 flex flex-col justify-between">
+    <Card className="max-w-[48rem] h-[17rem] flex-row overflow-hidden bg-white">
+      <CardBody className="p-4 flex flex-col justify-between ">
         <>
           <Typography variant="h6" color="gray" className="mb-1 uppercase">
             {info.title}
