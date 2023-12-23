@@ -39,32 +39,122 @@ const Home = (): JSX.Element => {
             <Linkedin />
           </a>
         </div>
-        <div className=" flex  justify-center items-center overflow-hidden md:overflow-visible gap-8 w-100">
-          <img
-            className="rounded-2xl w-[150px] h-[150px] lg:w-[250px] lg:h-[350px] origin-top rotate-3 "
-            src={image1}
-            alt=""
-          />
-          <img
-            className="rounded-2xl w-[150px] h-[150px] lg:w-[250px] lg:h-[350px] origin-bottom -rotate-3"
-            src={image2}
-            alt=""
-          />
-          <img
-            className="rounded-2xl w-[150px] h-[150px] lg:w-[250px] lg:h-[350px] origin-bottom rotate-2 me-4 "
-            src={image3}
-            alt=""
-          />
-          <img
-            className="rounded-2xl w-[150px] h-[150px] lg:w-[250px] lg:h-[350px] origin-top rotate-3"
-            src={image4}
-            alt=""
-          />
-          <img
-            className="rounded-2xl w-[150px] h-[150px] lg:w-[250px] lg:h-[350px] origin-bottom -rotate-3"
-            src={image5}
-            alt=""
-          />
+        <div className=" flex max-w-screen  justify-center bg-white items-center overflow-hidden md:overflow-visible gap-8 w-screen md:w-full">
+          <div className=" md:h-[250px] md:w-[250px] lg:w-[300px] lg:h-[320px] cursor-pointer group">
+            <div className="relative w-full h-full duration-500  transition-all [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] ">
+              <div className="absolute inset-0  w-full h-full">
+                <img
+                  className=" w-full h-full rounded-lg  shadow-md shadow-[#2dc7b4]/10 object-cover rotate-3"
+                  src={image1}
+                  alt=""
+                />
+              </div>
+              <div className="absolute inset-0 w-full h-full [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                <div className="text-center flex flex-col items-center justify-center h-full bg-slate-700 text-gray-800 px-2 pb-10  rounded-lg  -rotate-3">
+                  <h1 className="text-3xl font-semibold">The King's Man</h1>
+                  <p className="my-2">9.0 Rating</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Facilis itaque assumenda saepe animi maxime libero non
+                    quasi, odit natus veritatis enim culpa nam inventore
+                    doloribus quidem temporibus amet velit accusamus.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="md:h-[250px] md:w-[250px] lg:w-[300px] lg:h-[320px] cursor-pointer group [perspective:1000px]">
+            <div className="relative w-full h-full duration-500  transition-all [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] ">
+              <div className="absolute inset-0  w-full h-full">
+                <img
+                  className="  w-full h-full rounded-lg  shadow-md shadow-[#2dc7b4]/10 rotate-3  object-cover"
+                  src={image2}
+                  alt=""
+                />
+              </div>
+              <div className="absolute inset-0 w-full h-full [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                <div className="text-center flex flex-col items-center justify-center h-full bg-slate-700 text-gray-800 px-2 pb-10  rounded-lg -rotate-3">
+                  <h1 className="text-3xl font-semibold">The King's Man</h1>
+                  <p className="my-2">9.0 Rating</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Facilis itaque assumenda saepe animi maxime libero non
+                    quasi, odit natus veritatis enim culpa nam inventore
+                    doloribus quidem temporibus amet velit accusamus.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="md:h-[250px] md:w-[250px] lg:w-[300px] lg:h-[320px] cursor-pointer group [perspective:1000px]">
+            <div className="relative w-full h-full duration-500  transition-all [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] ">
+              <div className="absolute inset-0  w-full h-full">
+                <img
+                  className=" w-full h-full rounded-lg  shadow-md shadow-[#2dc7b4]/10l  rotate-2 me-4 object-cover"
+                  src={image3}
+                  alt=""
+                />
+              </div>
+              <div className="absolute inset-0 w-full h-full [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                <div className="text-center flex flex-col items-center justify-center h-full bg-slate-700 text-gray-800 px-2 pb-10  rounded-lg -rotate-2">
+                  <h1 className="text-3xl font-semibold">The King's Man</h1>
+                  <p className="my-2">9.0 Rating</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Facilis itaque assumenda saepe animi maxime libero non
+                    quasi, odit natus veritatis enim culpa nam inventore
+                    doloribus quidem temporibus amet velit accusamus.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="md:h-[250px] md:w-[250px] lg:w-[300px] lg:h-[320px] cursor-pointer group [perspective:1000px]">
+            <div className="relative w-full h-full duration-500  transition-all [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] ">
+              <div className="absolute inset-0  w-full h-full">
+                <img
+                  className=" w-full h-full rounded-lg  shadow-md shadow-[#2dc7b4]/10 rotate-3 object-cover "
+                  src={image4}
+                  alt=""
+                />
+              </div>
+              <div className="absolute inset-0 w-full h-full [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                <div className="text-center flex flex-col items-center justify-center h-full bg-slate-700 text-gray-800 px-2 pb-10  rounded-lg -rotate-3">
+                  <h1 className="text-3xl font-semibold">The King's Man</h1>
+                  <p className="my-2">9.0 Rating</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Facilis itaque assumenda saepe animi maxime libero non
+                    quasi, odit natus veritatis enim culpa nam inventore
+                    doloribus quidem temporibus amet velit accusamus.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="md:h-[250px] md:w-[250px] lg:w-[300px] lg:h-[320px]  cursor-pointer group [perspective:1000px]">
+            <div className="relative w-full h-full duration-500  transition-all [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] ">
+              <div className="absolute inset-0  w-full h-full">
+                <img
+                  className=" w-full h-full rounded-lg  shadow-md shadow-[#2dc7b4]/10 -rotate-3 object-cover"
+                  src={image5}
+                  alt=""
+                />
+              </div>
+              <div className="absolute inset-0 w-full h-full [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                <div className="text-center flex flex-col items-center justify-center h-full bg-slate-700 text-gray-800 px-2 pb-10  rounded-lg  rotate-3">
+                  <h1 className="text-3xl font-semibold">The King's Man</h1>
+                  <p className="my-2">9.0 Rating</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Facilis itaque assumenda saepe animi maxime libero non
+                    quasi, odit natus veritatis enim culpa nam inventore
+                    doloribus quidem temporibus amet velit accusamus.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="px-7 lg:px-16 lg:mt-24">
           <h3 className="text-4xl text-white py-1"> My Skills</h3>
