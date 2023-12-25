@@ -11,7 +11,7 @@ import See from '../../../assets/icons/See';
 
 const ReverseCard = ({ info }: data) => {
   return (
-    <Card className="max-w-[48rem] h-[17rem] flex-row overflow-hidden bg-white">
+    <Card className="lg:max-w-[48rem] lg:h-[17rem] lg:flex-row overflow-hidden flex flex-col-reverse justify-center items-center bg-white">
       <CardBody className="p-4 flex flex-col justify-between ">
         <>
           <Typography variant="h6" color="gray" className="mb-1 uppercase">
@@ -39,7 +39,7 @@ const ReverseCard = ({ info }: data) => {
       <CardHeader
         shadow={false}
         floated={false}
-        className="m-0 w-2/5 shrink-0 rounded-l-none"
+        className="m-0 w-100 lg:w-1/4 lg:p-2  shrink-0 rounded-l-none"
       >
         <img
           src={info.image}

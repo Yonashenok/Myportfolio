@@ -20,13 +20,13 @@ export type data = {
 
 const ProjectCard = ({ info }: data) => {
   return (
-    <Card className="max-w-[48rem] h-[17rem] flex-row">
+    <Card className="lg:max-w-[48rem] lg:h-[17rem] lg:flex-row flex flex-col justify-center items-center">
       <CardHeader
         shadow={false}
         floated={false}
-        className="m-0 w-2/5 shrink-0 rounded-r-none"
+        className="m-0 w-100 lg:w-2/5 shrink-0 rounded-r-none"
       >
-        <img src={info.image} className="h-full w-full object-contain" />
+        <img src={info.image} className="h-full object-fill  w-full" />
       </CardHeader>
       <CardBody className="p-4 flex flex-col justify-between">
         <>
