@@ -15,7 +15,7 @@ import TypeScriptIcon from '../../../assets/icons/TypeScriptIcon';
 const GridSkills = () => {
   return (
     <>
-      <div className="grid grid-cols-4 gap-1  w-[265px] sm:w-[500px] sm:grid-cols-5  md:grid-cols-7 xl:grid-cols-12 xl:w-[1480px]  lg:w-[850px]">
+      <div className="grid grid-cols-4 gap-1  w-[265px] sm:w-[500px] sm:grid-cols-5  md:grid-cols-7 xl:grid-cols-8 xl:w-[1000px]  lg:w-[850px]">
         <div className="grid gap-4">
           <section className="buttons">
             <div className="spin btn thick">
