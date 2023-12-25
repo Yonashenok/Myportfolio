@@ -23,22 +23,25 @@ const About = () => {
             I’m Yonas Henok. I live in Addis Ababa, where I Develop the future.
           </h1>
           <p className="text-md lg:text-lg lg:w-[650px] font-light  leading-relaxed mt-6 mb-6  text-teal-100 lg:px-7">
-            I'm a full-stack developer and love clean code and accessible
-            design. Currently, I specialize in JavaScript, React, Redux,
-            Typescript and Ruby on Rails, from Microverse, a remote software
-            development school that uses Pair programming and working with
-            remote developers all over the world on real world projects. I'm
-            Fluent in English and Amharic, capable of learning quickly and
-            efficiently frameworks, and technologies.
+            I am a full-stack developer from Microverse. an online school for
+            remote developers. I was able to learn languages such as Javascript,
+            React, Typescript, Rails, and more within six months. Not only did I
+            learn to code technically. I also learned to work remotely and
+            collaborate with other students across the globe. Every day I
+            pair-programed and worked with other developers where I learned
+            important skills of communication and teamwork. I am a quick learner
+            of frameworks and technologies.
           </p>
           <p className="text-md lg:text-lg  lg:w-[650px] font-light  leading-relaxed mt-6 mb-6  text-teal-100 lg:px-7">
-            As an Electromechanical Engineer with a passion for technology and
-            innovation, I have always been fascinated by the intersection of
-            hardware and software. With a solid foundation in engineering
-            principles and a hands-on approach to problem-solving, I have
-            successfully transitioned into the dynamic world of full stack
+            I have a previous Degree as an Electromechanical Engineer and this
+            taught me the discipline, to work hard, to have determination, and
+            to never give up. This is an important skill when you work in tech
+            you always face bugs or issues it is important to adapt to
+            difficulty. and be resilient. With a solid foundation in engineering
+            principles and a hands-on approach to problem-solving. I have
+            successfully transitioned into the dynamic world of full-stack
             development, where I continue to leverage my analytical skills and
-            attention to detail to build robust, user-centric solutions.
+            attention to detail to build robust user-centric solutions.
           </p>
 
           <p className="text-md lg:text-lg lg:w-[650px] font-light  leading-relaxed mt-6 mb-6  text-teal-100 lg:px-7">
