@@ -13,7 +13,7 @@ export function Footer() {
             className="font-normal transition-colors text-stone-200 hover:text-blue-500 focus:text-blue-500"
           >
             <NavLink
-              className="px-3 py-2 flex items-center text-sm rounded-3xl   font-bold leading-snug text-white hover:opacity-75"
+              className="px-3 py-2 flex items-center text-sm rounded-3xl   font-bold leading-snug text-black dark:text-white hover:opacity-75"
               to="/"
             >
               <i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i>
@@ -29,7 +29,7 @@ export function Footer() {
             className="font-normal transition-colors text-stone-200 hover:text-blue-500 focus:text-blue-500"
           >
             <NavLink
-              className="px-3 py-2 flex items-center text-sm  font-bold leading-snug text-white hover:opacity-75"
+              className="px-3 py-2 flex items-center text-sm  font-bold leading-snug text-black dark:text-white hover:opacity-75"
               to="/about"
             >
               <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i>
@@ -45,7 +45,7 @@ export function Footer() {
             className="font-normal transition-colors text-stone-200 hover:text-blue-500 focus:text-blue-500"
           >
             <NavLink
-              className="px-3 py-2 flex items-center text-sm  font-bold leading-snug text-white hover:opacity-75"
+              className="px-3 py-2 flex items-center text-sm  font-bold leading-snug text-black dark:text-white hover:opacity-75"
               to="/projects"
             >
               <i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i>
@@ -61,7 +61,7 @@ export function Footer() {
             className="font-normal transition-colors text-stone-200 hover:text-blue-500 focus:text-blue-500"
           >
             <NavLink
-              className="px-3 py-2 flex items-center text-sm  font-bold leading-snug text-white hover:opacity-75"
+              className="px-3 py-2 flex items-center text-sm  font-bold leading-snug text-black dark:text-white hover:opacity-75"
               to="/contact"
             >
               <i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i>
@@ -70,7 +70,10 @@ export function Footer() {
           </Typography>
         </li>
       </ul>
-      <Typography color="blue-gray" className="font-normal text-stone-200">
+      <Typography
+        color="blue-gray"
+        className="font-normal text-black dark:text-stone-200 "
+      >
         &copy; 2023 Yonas .H
       </Typography>
     </footer>

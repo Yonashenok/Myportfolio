@@ -5,10 +5,10 @@ const Contact = () => {
   return (
     <div className="container w-100 mt-7  flex flex-col justify-center gap-3 items-center p-3">
       <div className="w-100 ">
-        <h3 className="lg:px-7 lg:mt-6 text-center text-3xl lg:text-5xl  font-bold text-white ">
+        <h3 className="lg:px-7 lg:mt-6 text-center text-3xl lg:text-5xl  font-bold  text-stone-900  dark:text-stone-100 ">
           Get In Touch
         </h3>
-        <p className="text-md text-center lg:text-lg lg:w-[800px] font-light  leading-relaxed mt-6 mb-6  text-teal-100 lg:px-7">
+        <p className="text-lg lg:text-xl text-center lg:w-[800px] font-normal dark:font-light  leading-relaxed mt-6 mb-6  text-stone-900  dark:text-teal-100 lg:px-7">
           Here you can let me know if you have any criticism, suggestion or
           problem, I'm waiting to hear your voice or see your message.
         </p>
@@ -16,7 +16,10 @@ const Contact = () => {
       <form>
         <div className=" flex lg:flex-row flex-col w-full  justify-center gap-x-16 lg:w-[850px] text-slate-800 lg:p-9 mb-2 lg:items-start rounded-lg ">
           <div className="flex flex-col  justify-center gap-3 items-start ">
-            <label className=" text-white" htmlFor="FullName">
+            <label
+              className=" text-stone-900  dark:text-teal-100 font-normal"
+              htmlFor="FullName"
+            >
               FullName (required)
             </label>
             <input
@@ -25,7 +28,10 @@ const Contact = () => {
               type="text"
               required
             />
-            <label className=" text-white" htmlFor="Email">
+            <label
+              className=" text-stone-900  dark:text-teal-100 font-normal"
+              htmlFor="Email"
+            >
               Email (required)
             </label>
             <input
@@ -34,7 +40,10 @@ const Contact = () => {
               type="email"
               required
             />
-            <label className=" text-white" htmlFor="Subject">
+            <label
+              className=" text-stone-900  dark:text-teal-100 font-normal"
+              htmlFor="Subject"
+            >
               Subject (required)
             </label>
             <input
@@ -44,7 +53,10 @@ const Contact = () => {
               required
             />
           </div>
-          <label className=" text-white flex flex-col" htmlFor="Comment">
+          <label
+            className=" text-stone-900  dark:text-teal-100 font-normal flex flex-col"
+            htmlFor="Comment"
+          >
             Comment
             <textarea
               className="outline-1 outline-cyan-600  p-2 text-slate-800   rounded-xl mt-3 "
