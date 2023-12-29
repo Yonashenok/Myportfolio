@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 body {
-  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,8 +13,8 @@ body {
   width: 20px;
 }
 
-::-webkit-scrollbar-track {
-  background-color: transparent;
+.dark-mode ::-webkit-scrollbar-track {
+  background-color: #000;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -30,7 +29,6 @@ body {
 }
 
 .active {
-  color: #2dc7b4;
   border-bottom: 1px solid #2dc7b4;
   border-radius: 25rem;
 }
