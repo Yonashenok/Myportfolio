@@ -16,8 +16,8 @@ const RailsIcon = () => {
             y2="2182.218"
             gradientTransform="matrix(1 0 0 -1 -320.773 2656.956)"
           >
-            <stop offset="0" stop-color="#fff"></stop>
-            <stop offset="1" stop-color="#C0815E"></stop>
+            <stop offset="0" stopColor="#fff"></stop>
+            <stop offset="1" stopColor="#C0815E"></stop>
           </linearGradient>
           <path
             fill="url(#rails-original-wordmark-a)"
@@ -33,8 +33,8 @@ const RailsIcon = () => {
             gradientTransform="matrix(1 0 0 -1.582 -320.773 3155.877)"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0" stop-color="#fff"></stop>
-            <stop offset="1" stop-color="#A94436"></stop>
+            <stop offset="0" stopColor="#fff"></stop>
+            <stop offset="1" stopColor="#A94436"></stop>
           </radialGradient>
           <path
             opacity=".668"
@@ -43,12 +43,12 @@ const RailsIcon = () => {
           ></path>
           <path
             fill="#fff"
-            fill-opacity=".44"
+            fillOpacity=".44"
             d="M337.881 531.221l31.956 30.733-59.571-1.256s-1.861-18.927-1.241-28.856l3.723-9.929 25.133 9.308z"
           ></path>
         </g>
         <path
-          fill-opacity=".362"
+          fillOpacity=".362"
           d="M94.085 125.365L65.229 95.577l-26.375-9.929-20.479-45.612L40.096 3.732l-14.584-.621-5.896 5.586-2.172 4.344-1.552 112.945 78.193-.621z"
         ></path>
         <path
@@ -65,7 +65,7 @@ const RailsIcon = () => {
         </g>
         <path
           stroke="#5E000E"
-          stroke-width="3"
+          strokeWidth="3"
           d="M17.444 125.054s.188-29.538.188-59.564c0-58.159-4.901-62.491 21.194-62.491h72.635v83.889c0 27.615 3.921 38.433-23.859 38.433-27.78.001-70.158-.267-70.158-.267z"
           fill="none"
         ></path>

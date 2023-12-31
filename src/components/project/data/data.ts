@@ -1,7 +1,7 @@
-import imageJetLogix from '../../../assets/imgs/jet-logix-img.png';
-import imageNovaflix from '../../../assets/imgs/nov-img.png';
-import imageTodo from '../../../assets/imgs/todo-img.png';
-import imageExpense from '../../../assets/imgs/expense-img.png';
+import imageJetLogix from '../../../assets/imgs/jet-logix-no-bg.png';
+import imageNovaflix from '../../../assets/imgs/nov-no-bg.png';
+import imageTodo from '../../../assets/imgs/to-do-no-bg.png';
+import imageExpense from '../../../assets/imgs/expence-no-bg.png';
 
 const projectInfo = {
   jetLogix: {

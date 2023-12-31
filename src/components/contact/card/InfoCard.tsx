@@ -10,7 +10,7 @@ export function InfoCard() {
         <Typography variant="h5" color="blue-gray" className="mb-2">
           What is your plan ? Call me
         </Typography>
-        <Typography>
+        <Typography className="font-normal text-lg">
           You can get my contact information here and if you like, you can see
           the urls of my pages on social networks from the top of the page and
           find me there.

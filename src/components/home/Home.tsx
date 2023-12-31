@@ -14,17 +14,17 @@ const Home = (): JSX.Element => {
     <>
       <div className="container mx-auto xl:px-7 lg:mt-7 flex flex-col justify-between ">
         <div className="px-7 ">
-          <h1 className="lg:px-7 text-4xl font-bold text-white">
+          <h1 className="lg:px-7 text-4xl font-bold text-slate-900 dark:text-white">
             Full Stack Developer
           </h1>
-          <p className="text-md lg:text-lg lg:w-[800px] font-light text-balance leading-relaxed mt-6 mb-6  lg:px-7 text-teal-100">
+          <p className="text-md lg:text-xl   text-slate-900 lg:w-[850px] font-normal  leading-relaxed mt-6 mb-6  lg:px-7 dark:text-teal-100">
             I'm Yonas, a Full Stack Developer based in Ethiopia who is
             passionate about delivering value to businesses through technology.
             I love the challenge of finding creative solutions to problems. and
             I enjoy collaborating with teams to achieve great results.
           </p>
         </div>
-        <div className="flex justify-between items-center w-[200px] lg:w-[300px] px-10 lg:px-16 gap-2 mb-24">
+        <div className="flex justify-between items-center w-[150px] lg:w-[300px] px-10 lg:px-16 gap-2 mb-24">
           <a href="https://twitter.com/YonasHenok3" target="blank">
             <Twitter />
           </a>
@@ -45,15 +45,16 @@ const Home = (): JSX.Element => {
                 <img
                   className=" w-full h-full rounded-lg  shadow-md shadow-[#2dc7b4]/10 object-cover -rotate-3"
                   src={image1}
+                  loading="lazy"
                   alt=""
                 />
               </div>
               <div className="absolute inset-0 w-full h-full [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                <div className="text-center flex flex-col items-center justify-start h-full bg-slate-100 text-gray-800 px-2 pb-10  rounded-lg  rotate-3">
-                  <h1 className="  text-2xl font-semibold mb-2 uppercase pt-3">
+                <div className="text-center flex flex-col items-center justify-start h-full bg-slate-900 dark:bg-slate-100 text-gray-800 px-2 pb-10  rounded-lg  rotate-3">
+                  <h1 className="  text-2xl font-semibold mb-2  text-stone-100  dark:text-stone-900 uppercase pt-3">
                     Challenges
                   </h1>
-                  <p className="text-center p-1 text-lg">
+                  <p className="text-left p-1 text-stone-100  dark:text-stone-900 text-lg">
                     The discipline to work hard, to have determination, and to
                     never give up. This is an important skill when you work in
                     tech you always face bugs or issues it is important to adapt
@@ -69,15 +70,16 @@ const Home = (): JSX.Element => {
                 <img
                   className=" w-full h-full rounded-lg  shadow-md shadow-[#2dc7b4]/10  rotate-2 me-4 object-cover"
                   src={image3}
+                  loading="lazy"
                   alt=""
                 />
               </div>
               <div className="absolute inset-0 w-full h-full [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                <div className="text-center flex flex-col items-center justify-start h-full bg-slate-100 text-gray-800 px-2 pb-10  rounded-lg -rotate-2">
+                <div className="text-center flex flex-col items-center justify-start h-full bg-slate-900 dark:bg-slate-100 text-stone-100  dark:text-stone-900 px-2 pb-10  rounded-lg -rotate-2">
                   <h1 className="  text-2xl font-semibold mb-2 uppercase pt-3">
                     learn more
                   </h1>
-                  <p className="text-center p-1 text-lg">
+                  <p className="text-left p-1 text-lg text-stone-100  dark:text-stone-900 ">
                     have the room to grow and use the learning opportunity to
                     become better version of your self every dey
                   </p>
@@ -91,15 +93,16 @@ const Home = (): JSX.Element => {
                 <img
                   className=" w-full h-full rounded-lg  shadow-md shadow-[#2dc7b4]/10 rotate-3 object-cover "
                   src={image4}
+                  loading="lazy"
                   alt=""
                 />
               </div>
               <div className="absolute inset-0 w-full h-full [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                <div className="text-center flex flex-col items-center justify-start h-full bg-slate-100 text-gray-800 px-2 pb-10  rounded-lg -rotate-3">
+                <div className="text-center flex flex-col items-center justify-start h-full bg-slate-900 dark:bg-slate-100 text-stone-100  dark:text-stone-900  px-2 pb-10  rounded-lg -rotate-3">
                   <h1 className="  text-2xl font-semibold mb-2 uppercase pt-3">
                     the future me
                   </h1>
-                  <p className="text-center p-1 text-lg">
+                  <p className="text-center p-1 text-lg text-stone-100  dark:text-stone-900 ">
                     I envision a career trajectory that allows me to grow into a
                     leadership position where I can mentor others and drive
                     innovation in tech solutions that contribute to a better
@@ -115,15 +118,16 @@ const Home = (): JSX.Element => {
                 <img
                   className=" w-full h-full rounded-lg  shadow-md shadow-[#2dc7b4]/10 -rotate-3 object-cover"
                   src={image5}
+                  loading="lazy"
                   alt=""
                 />
               </div>
               <div className="absolute inset-0 w-full h-full [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                <div className="text-center flex flex-col items-center justify-start h-full bg-slate-100 text-gray-800 px-2 pb-10  rounded-lg  rotate-3">
+                <div className="text-center flex flex-col items-center justify-start h-full bg-slate-900 dark:bg-slate-100 text-stone-100  dark:text-stone-900 px-2 pb-10  rounded-lg  rotate-3">
                   <h1 className="  text-2xl font-semibold mb-2 uppercase pt-3">
                     collaborate
                   </h1>
-                  <p className="text-center p-1 text-lg">
+                  <p className="text-center p-1 text-lg text-stone-100  dark:text-stone-900">
                     I have learned to work remotely and collaborate with other
                     developers across the globe. where I learned important
                     skills of communication and teamwork.
@@ -134,8 +138,10 @@ const Home = (): JSX.Element => {
           </article>
         </div>
         <div className="px-7 lg:px-16 lg:mt-24">
-          <h3 className="text-4xl text-white py-1"> My Skills</h3>
-          <p className="text-md lg:text-lg lg:w-[800px] font-light  leading-relaxed mt-6 mb-6  text-teal-100">
+          <h3 className="text-4xl text-slate-900 font-bold dark:text-white py-1">
+            My Skills
+          </h3>
+          <p className="text-md lg:text-xl font-normal lg:w-[800px]  leading-relaxed mt-6 mb-6  text-slate-900 dark:text-teal-100">
             Here you can see my skills, one of the fascinations of the computer
             world is the momentary changes of technologies, but I try to update
             my knowledge every day and experience new technologies.

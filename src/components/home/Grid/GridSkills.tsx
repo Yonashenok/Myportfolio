@@ -14,129 +14,127 @@ import TypeScriptIcon from '../../../assets/icons/TypeScriptIcon';
 
 const GridSkills = () => {
   return (
-    <>
-      <div className="grid grid-cols-4 gap-1  w-[265px] sm:w-[500px] sm:grid-cols-5  md:grid-cols-7 xl:grid-cols-8 xl:w-[1000px]  lg:w-[850px]">
-        <div className="grid gap-4">
-          <section className="buttons">
-            <div className="spin btn thick">
-              <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-26 h-26 ">
-                <JavascriptIcon />
-                <div className="flex justify-end items-center"></div>
-              </div>
+    <div className="grid grid-cols-4 gap-1  w-[265px] sm:w-[500px] sm:grid-cols-5  md:grid-cols-7 xl:grid-cols-8 xl:w-[1000px]  lg:w-[850px]">
+      <div className="grid gap-4">
+        <section className="buttons">
+          <div className="spin btn thick">
+            <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-25 h-25 ">
+              <JavascriptIcon />
+              <div className="flex justify-end items-center"></div>
             </div>
-          </section>
-          <section className="buttons">
-            <div className="spin btn thick">
-              <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-36 h-36 ">
-                <TypeScriptIcon />
-                <div className="flex justify-end items-center"></div>
-              </div>
+          </div>
+        </section>
+        <section className="buttons">
+          <div className="spin btn thick">
+            <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-25 h-25 ">
+              <TypeScriptIcon />
+              <div className="flex justify-end items-center"></div>
             </div>
-          </section>
-        </div>
-        <div className="grid gap-4">
-          <section className="buttons">
-            <div className="spin btn thick">
-              <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-36 h-36 ">
-                <RubyIcon />
-                <div className="flex justify-end items-center"></div>
-              </div>
-            </div>
-          </section>
-          <section className="buttons">
-            <div className="spin btn thick">
-              <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-36 h-36 ">
-                <RailsIcon />
-                <div className="flex justify-end items-center"></div>
-              </div>
-            </div>
-          </section>
-        </div>
-
-        <div className="grid gap-4">
-          <section className="buttons">
-            <div className="spin btn thick">
-              <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-36 h-36 ">
-                <CssIcon />
-                <div className="flex justify-end items-center"></div>
-              </div>
-            </div>
-          </section>
-          <section className="buttons">
-            <div className="spin btn thick">
-              <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-36 h-36 ">
-                <TailwindIcon />
-                <div className="flex justify-end items-center"></div>
-              </div>
-            </div>
-          </section>
-        </div>
-        <div className="grid gap-4">
-          <section className="buttons">
-            <div className="spin btn thick">
-              <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-36 h-36 ">
-                <SaasIcon />
-                <div className="flex justify-end items-center"></div>
-              </div>
-            </div>
-          </section>
-          <section className="buttons">
-            <div className="spin btn thick">
-              <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-36 h-36 ">
-                <BootstrapIcon />
-                <div className="flex justify-end items-center"></div>
-              </div>
-            </div>
-          </section>
-        </div>
-        <div className="grid gap-4">
-          <section className="buttons">
-            <div className="spin btn thick">
-              <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-36 h-36 ">
-                <GitIcon />
-                <div className="flex justify-end items-center"></div>
-              </div>
-            </div>
-          </section>
-          <section className="buttons">
-            <div className="spin btn thick">
-              <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-36 h-36 ">
-                <GithubIcon />
-                <div className="flex justify-end items-center"></div>
-              </div>
-            </div>
-          </section>
-        </div>
-        <div className="grid gap-4">
-          <section className="buttons">
-            <div className="spin btn thick">
-              <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-36 h-36 ">
-                <PostgresIcon />
-                <div className="flex justify-end items-center"></div>
-              </div>
-            </div>
-          </section>
-          <section className="buttons">
-            <div className="spin btn thick">
-              <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-36 h-36 ">
-                <ReactIcon />
-                <div className="flex justify-end items-center"></div>
-              </div>
-            </div>
-          </section>
-        </div>
-        <div className="grid gap-4">
-          <section className="buttons">
-            <div className="spin btn thick">
-              <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-36 h-36 ">
-                <HtmlIcon />
-                <div className="flex justify-end items-center"></div>
-              </div>
-            </div>
-          </section>
-        </div>
+          </div>
+        </section>
       </div>
-    </>
+      <div className="grid gap-4">
+        <section className="buttons">
+          <div className="spin btn thick">
+            <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-25 h-25 ">
+              <RubyIcon />
+              <div className="flex justify-end items-center"></div>
+            </div>
+          </div>
+        </section>
+        <section className="buttons">
+          <div className="spin btn thick">
+            <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-25 h-25 ">
+              <RailsIcon />
+              <div className="flex justify-end items-center"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div className="grid gap-4">
+        <section className="buttons">
+          <div className="spin btn thick">
+            <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-25 h-25 ">
+              <CssIcon />
+              <div className="flex justify-end items-center"></div>
+            </div>
+          </div>
+        </section>
+        <section className="buttons">
+          <div className="spin btn thick">
+            <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-25 h-25 ">
+              <TailwindIcon />
+              <div className="flex justify-end items-center"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div className="grid gap-4">
+        <section className="buttons">
+          <div className="spin btn thick">
+            <div className="flex flex-col justify-between items-between  rounded-lg  p-5 w-25 h-25 ">
+              <SaasIcon />
+              <div className="flex justify-end items-center"></div>
+            </div>
+          </div>
+        </section>
+        <section className="buttons">
+          <div className="spin btn thick">
+            <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-25 h-25 ">
+              <BootstrapIcon />
+              <div className="flex justify-end items-center"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div className="grid gap-4">
+        <section className="buttons">
+          <div className="spin btn thick">
+            <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-25 h-25 ">
+              <GitIcon />
+              <div className="flex justify-end items-center"></div>
+            </div>
+          </div>
+        </section>
+        <section className="buttons">
+          <div className="spin btn thick">
+            <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-25 h-25 ">
+              <GithubIcon />
+              <div className="flex justify-end items-center"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div className="grid gap-4">
+        <section className="buttons">
+          <div className="spin btn thick">
+            <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-25 h-25 ">
+              <PostgresIcon />
+              <div className="flex justify-end items-center"></div>
+            </div>
+          </div>
+        </section>
+        <section className="buttons">
+          <div className="spin btn thick">
+            <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-25 h-25 ">
+              <ReactIcon />
+              <div className="flex justify-end items-center"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div className="grid gap-4">
+        <section className="buttons">
+          <div className="spin btn thick">
+            <div className="flex flex-col justify-between items-between  rounded-lg   p-5 w-25 h-25 ">
+              <HtmlIcon />
+              <div className="flex justify-end items-center"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
   );
 };
 
