@@ -52,13 +52,13 @@ const ReverseCard = ({ info }: data) => {
       <CardHeader
         shadow={false}
         floated={false}
-        className="m-0 w-100 lg:w-1/4 lg:p-2 group-hover:bg-teal-700    shrink-0 rounded-l-none"
+        className="m-0 w-100 w w-1/2 lg:w-1/4 lg:p-2 group-hover:bg-teal-700    shrink-0 rounded-l-none"
       >
         <img
           src={info.image}
           alt="card-image"
-          loading="lazy"
-          className="h-full w-full object-contain "
+          // loading="lazy"
+          className="h-full w-full object-cover "
         />
       </CardHeader>
     </Card>
