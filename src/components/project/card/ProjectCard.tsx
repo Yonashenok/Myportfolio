@@ -28,8 +28,8 @@ const ProjectCard = ({ info }: data) => {
       >
         <img
           src={info.image}
-          loading="lazy"
-          className="h-full object-fill b  w-full"
+          // loading="lazy"
+          className="h-full lg:object-fill object-contain  w-full"
         />
       </CardHeader>
       <CardBody className="p-4 flex flex-col justify-between">
